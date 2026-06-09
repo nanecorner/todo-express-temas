@@ -1,0 +1,159 @@
+Crea una landing page moderna, profesional y optimizada para conversión para un negocio llamado "Todo Express Temas".
+
+Objetivo principal:
+Generar pedidos por WhatsApp para la compra y entrega de productos de diferentes tiendas y marcas.
+
+Diseño:
+
+* Moderno y limpio.
+* Responsive para móvil y escritorio.
+* Colores cálidos, un poco hacia el naranja y de confianza.
+* Botones de llamada a la acción visibles.
+* Estilo similar a servicios de entrega rápida.
+* Animaciones suaves al hacer scroll.
+
+SECCIÓN 1: HERO
+
+Título principal:
+"Compramos por ti y te lo llevamos"
+
+Subtítulo:
+"Realizamos compras de tus productos favoritos y los llevamos hasta donde los necesites."
+
+Botones:
+
+* Ver catálogo
+* Pedir por WhatsApp
+
+Imagen principal:
+Mostrar una composición visual con productos variados de supermercado, panadería, pizzas, donas y comida rápida.
+
+SECCIÓN 2: MARCAS CON LAS QUE TRABAJAMOS
+
+Crear un carrusel automático con los logotipos de:
+
+* Costco
+* Sam's Club
+* Walmart
+* El Globo
+* La Esperanza
+* Krispy Kreme
+* Little Caesars
+* McDonald's
+
+Texto debajo del carrusel:
+
+"Compramos por ti y te lo llevamos."
+
+SECCIÓN 3: CATÁLOGO
+
+Crear una sección de catálogo visual con tarjetas de productos.
+
+Cada tarjeta debe contener:
+
+* Imagen del producto
+* Nombre del producto
+* Tienda
+* Precio base
+* Botón "Pedir por WhatsApp"
+
+Los productos deben cargarse dinámicamente desde una estructura fácilmente editable.
+
+Diseño:
+
+* Grid responsive
+* Tarjetas modernas
+* Efecto hover elegante
+
+SECCIÓN 4: PRODUCTOS POR ENCARGO
+
+Título:
+"¿No encuentras lo que buscas?"
+
+Texto:
+"También conseguimos productos que no aparecen en nuestro catálogo. Envíanos tu solicitud por WhatsApp y con gusto te ayudamos."
+
+Botón:
+"Solicitar producto"
+
+SECCIÓN 5: PREGUNTAS FRECUENTES
+
+Implementar acordeón desplegable.
+
+Pregunta:
+¿Cuál es el costo de entrega?
+Respuesta:
+El costo de entrega depende del producto solicitado.
+
+Pregunta:
+¿Dónde entregan?
+Respuesta:
+Realizamos entregas a domicilio bajo solicitud o en punto de entrega acordado.
+
+Pregunta:
+¿Cuánto tarda la entrega?
+Respuesta:
+Realizamos entregas todos los sábados.
+
+Pregunta:
+¿Puedo pedir productos que no estén en el catálogo?
+Respuesta:
+Sí, podemos conseguir productos fuera del catálogo bajo solicitud.
+
+Pregunta:
+¿Qué métodos de pago aceptan?
+Respuesta:
+Aceptamos efectivo y transferencia bancaria.
+
+SECCIÓN 6: CONTACTO
+
+Título:
+"Contáctanos"
+
+Elementos:
+
+* Botón de WhatsApp
+* Botón de Facebook
+* Botón de Instagram
+
+Incrustar mapa de Google Maps usando:
+
+Coordenadas:
+19.918279, -100.005697
+
+Dirección:
+Lic. Felipe de Jesús Chaparro 11-4,
+Temascalcingo,
+50400 Temascalcingo de José María Velasco,
+Estado de México.
+
+Mostrar la ubicación en un mapa interactivo.
+
+SECCIÓN 7: LLAMADA FINAL A LA ACCIÓN
+
+Título:
+"¿Necesitas algo de tus tiendas favoritas?"
+
+Texto:
+"Envíanos tu pedido y nosotros hacemos la compra por ti."
+
+Botón grande:
+"Pedir por WhatsApp"
+
+FOOTER
+
+* Nombre del negocio: Todo Express Temas
+* WhatsApp
+* Facebook
+* Instagram
+* Derechos reservados
+* Hecho por D'cReaM 🐢
+
+REQUISITOS TÉCNICOS
+
+
+* Optimización para dispositivos móviles.
+* Carga rápida.
+* Imágenes optimizadas.
+* Botón flotante de WhatsApp visible en todo momento.
+* Navegación suave entre secciones.
