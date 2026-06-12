@@ -14,7 +14,7 @@ export function Faq() {
           Preguntas frecuentes
         </span>
         <h2 className="mt-3 text-balance text-3xl font-bold tracking-tight md:text-4xl">
-          Resolvemos tus dudas
+          Resolvemos tus dudas 
         </h2>
       </div>
 
