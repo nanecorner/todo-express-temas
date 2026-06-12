@@ -36,9 +36,100 @@ export type Product = {
   name: string
   store: string
   price: string
+  image?: string
 }
 
 export const products: Product[] = [
+  {
+    name: "Cheesecake con Frambuesa",
+    store: "Costco",
+    price: "$299 MXN",
+    image: "/productos/cheesecake frambuesa.jpeg",
+  },
+  {
+    name: "Pastel Chocofudge",
+    store: "Costco",
+    price: "$349 MXN",
+    image: "/productos/chocofudge.jpeg",
+  },
+  {
+    name: "Pastel Red Velvet",
+    store: "Costco",
+    price: "$329 MXN",
+    image: "/productos/red velvet.jpeg",
+  },
+  {
+    name: "Cheesecake con Chispas de Chocolate",
+    store: "Costco",
+    price: "$289 MXN",
+    image: "/productos/cheesecake chispas.jpeg",
+  },
+  {
+    name: "Chocoflan",
+    store: "Costco",
+    price: "$199 MXN",
+    image: "/productos/chocoflan.jpeg",
+  },
+  {
+    name: "Pie de Limón",
+    store: "Costco",
+    price: "$229 MXN",
+    image: "/productos/pie limon.jpeg",
+  },
+  {
+    name: "Strudel de Manzana (Paquete)",
+    store: "Costco",
+    price: "$189 MXN",
+    image: "/productos/strudel manzana.jpeg",
+  },
+  {
+    name: "Chocolatines (Paquete)",
+    store: "Costco",
+    price: "$189 MXN",
+    image: "/productos/chocolatines.jpeg",
+  },
+  {
+    name: "Croissants de Mantequilla (Paquete)",
+    store: "Costco",
+    price: "$169 MXN",
+    image: "/productos/croissants.jpeg",
+  },
+  {
+    name: "Croissants rellenos de Zarzamora (Paquete)",
+    store: "Costco",
+    price: "$199 MXN",
+    image: "/productos/croissants zarzamora.jpeg",
+  },
+  {
+    name: "Papel Higiénico Kirkland Ultra Soft",
+    store: "Costco",
+    price: "$389 MXN",
+    image: "/productos/papel de baño.jpeg",
+  },
+  {
+    name: "Toallitas Húmedas Kirkland (Paquete)",
+    store: "Costco",
+    price: "$349 MXN",
+    image: "/productos/toallitas húmedas.jpeg",
+  },
+  {
+    name: "Arrancagrasa Axion Líquido",
+    store: "Costco",
+    price: "$139 MXN",
+    image: "/productos/arrancagrasa axion.jpeg",
+  },
+  {
+    name: "Leche Light Kirkland (Caja 12 pzas)",
+    store: "Costco",
+    price: "$249 MXN",
+    image: "/productos/leche light kirkland.jpeg",
+  },
+  {
+    name: "Kéfir Orgánico",
+    store: "Costco",
+    price: "$169 MXN",
+    image: "/productos/kefir.jpeg",
+  },
   { name: "Caja de docena original glaseada", store: "Krispy Kreme", price: "$329 MXN" },
   { name: "Combo Cuarto de Libra con queso", store: "McDonald's", price: "$159 MXN" },
   { name: "Pizza Hot-N-Ready pepperoni", store: "Little Caesars", price: "$129 MXN" },

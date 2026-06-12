@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Image from "next/image"
 import { MessageCircle, ImageIcon } from "lucide-react"
 import { products, orderProductLink } from "@/lib/site"
 
@@ -52,9 +53,21 @@ export function Catalog() {
               key={`${p.name}-${p.store}`}
               className="flex flex-col overflow-hidden rounded-2xl border border-border bg-background"
             >
-              <div className="flex aspect-[4/3] items-center justify-center bg-muted text-muted-foreground">
-                <ImageIcon className="h-10 w-10" aria-hidden="true" />
-                <span className="sr-only">Imagen del producto próximamente</span>
+              <div className="relative aspect-[4/3] w-full overflow-hidden bg-muted flex items-center justify-center">
+                {p.image ? (
+                  <Image
+                    src={p.image}
+                    alt={p.name}
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    className="object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                ) : (
+                  <>
+                    <ImageIcon className="h-10 w-10 text-muted-foreground/60" aria-hidden="true" />
+                    <span className="sr-only">Imagen del producto próximamente</span>
+                  </>
+                )}
               </div>
               <div className="flex flex-1 flex-col p-4">
                 <h3 className="text-base font-semibold leading-snug text-foreground line-clamp-2 h-11">{p.name}</h3>
