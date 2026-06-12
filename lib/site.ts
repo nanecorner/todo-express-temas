@@ -129,15 +129,7 @@ export const products: Product[] = [
     store: "Costco",
     price: "$169 MXN",
     image: "/productos/kefir.jpeg",
-  },
-  { name: "Caja de docena original glaseada", store: "Krispy Kreme", price: "$329 MXN" },
-  { name: "Combo Cuarto de Libra con queso", store: "McDonald's", price: "$159 MXN" },
-  { name: "Pizza Hot-N-Ready pepperoni", store: "Little Caesars", price: "$129 MXN" },
-  { name: "Rotisserie / pollo rostizado", store: "Costco", price: "$169 MXN" },
-  { name: "Paquete de agua embotellada 24 pzas", store: "Sam's Club", price: "$89 MXN" },
-  { name: "Despensa básica del mes", store: "Walmart", price: "Bajo cotización" },
-  { name: "Pastel de chocolate mediano", store: "El Globo", price: "$389 MXN" },
-  { name: "Pan dulce surtido (10 pzas)", store: "La Esperanza", price: "$120 MXN" },
+  }
 ]
 
 export const faqs = [
