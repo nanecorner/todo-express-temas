@@ -40,7 +40,7 @@ export function SendList() {
             className="mt-6 inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3.5 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
           >
             <Users className="h-5 w-5" />
-            Métete a nuestro grupo
+            Únete a nuestro grupo
           </a>
         </div>
       </div>
