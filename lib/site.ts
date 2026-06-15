@@ -37,99 +37,383 @@ export type Product = {
   store: string
   price: string
   image?: string
+  note?: string
 }
 
 export const products: Product[] = [
   {
     name: "Cheesecake con Frambuesa",
     store: "Costco",
-    price: "$299 MXN",
-    image: "/productos/cheesecake frambuesa.jpeg",
+    price: "$300 MXN",
+    image: "/productos/costco/cheesecake frambuesa.jpeg",
   },
   {
     name: "Pastel Chocofudge",
     store: "Costco",
-    price: "$349 MXN",
-    image: "/productos/chocofudge.jpeg",
+    price: "$400 MXN",
+    image: "/productos/costco/chocofudge.jpeg",
   },
   {
     name: "Pastel Red Velvet",
     store: "Costco",
-    price: "$329 MXN",
-    image: "/productos/red velvet.jpeg",
+    price: "$350 MXN",
+    image: "/productos/costco/red velvet.jpeg",
   },
   {
     name: "Cheesecake con Chispas de Chocolate",
     store: "Costco",
-    price: "$289 MXN",
-    image: "/productos/cheesecake chispas.jpeg",
+    price: "$330 MXN",
+    image: "/productos/costco/cheesecake chispas.jpeg",
   },
   {
     name: "Chocoflan",
     store: "Costco",
-    price: "$199 MXN",
-    image: "/productos/chocoflan.jpeg",
+    price: "$230 MXN",
+    image: "/productos/costco/chocoflan.jpeg",
   },
   {
-    name: "Pie de Limón",
+    name: "Pay de Limón",
     store: "Costco",
-    price: "$229 MXN",
-    image: "/productos/pie limon.jpeg",
+    price: "$230 MXN",
+    image: "/productos/costco/pie limon.jpeg",
   },
   {
     name: "Strudel de Manzana (Paquete)",
     store: "Costco",
-    price: "$189 MXN",
-    image: "/productos/strudel manzana.jpeg",
+    price: "$130 MXN",
+    image: "/productos/costco/strudel manzana.jpeg",
   },
   {
     name: "Chocolatines (Paquete)",
     store: "Costco",
-    price: "$189 MXN",
-    image: "/productos/chocolatines.jpeg",
+    price: "$160 MXN",
+    image: "/productos/costco/chocolatines.jpeg",
   },
   {
     name: "Croissants de Mantequilla (Paquete)",
     store: "Costco",
-    price: "$169 MXN",
-    image: "/productos/croissants.jpeg",
+    price: "$170 MXN",
+    image: "/productos/costco/croissants.jpeg",
   },
   {
     name: "Croissants rellenos de Zarzamora (Paquete)",
     store: "Costco",
-    price: "$199 MXN",
-    image: "/productos/croissants zarzamora.jpeg",
+    price: "$225 MXN",
+    image: "/productos/costco/croissants zarzamora.jpeg",
   },
   {
-    name: "Papel Higiénico Kirkland Ultra Soft",
+    name: "Papel Higiénico Kirkland",
     store: "Costco",
-    price: "$389 MXN",
-    image: "/productos/papel de baño.jpeg",
+    price: "$490 MXN",
+    image: "/productos/costco/papel de baño.jpeg",
   },
   {
     name: "Toallitas Húmedas Kirkland (Paquete)",
     store: "Costco",
-    price: "$349 MXN",
-    image: "/productos/toallitas húmedas.jpeg",
+    price: "$500 MXN",
+    image: "/productos/costco/toallitas húmedas.jpeg",
   },
   {
     name: "Arrancagrasa Axion Líquido",
     store: "Costco",
-    price: "$139 MXN",
-    image: "/productos/arrancagrasa axion.jpeg",
+    price: "$180 MXN",
+    image: "/productos/costco/arrancagrasa axion.jpeg",
   },
   {
     name: "Leche Light Kirkland (Caja 12 pzas)",
     store: "Costco",
-    price: "$249 MXN",
-    image: "/productos/leche light kirkland.jpeg",
+    price: "$320 MXN",
+    image: "/productos/costco/leche light kirkland.jpeg",
   },
   {
     name: "Kéfir Orgánico",
     store: "Costco",
-    price: "$169 MXN",
-    image: "/productos/kefir.jpeg",
-  }
+    price: "$200 MXN",
+    image: "/productos/costco/kefir.jpeg",
+  },
+  {
+    name: "Papel Higiénico Cottonelle",
+    store: "Sam's Club",
+    price: "$390 MXN",
+    image: "/productos/sams/cotonelle.jpeg",
+  },
+  {
+    name: "Honey Keeper",
+    store: "Sam's Club",
+    price: "$240 MXN",
+    image: "/productos/sams/honey keeper.jpeg",
+  },
+  {
+    name: "Aceite Nutrioli",
+    store: "Sam's Club",
+    price: "$130 MXN",
+    image: "/productos/sams/nutrioli.jpeg",
+  },
+  {
+    name: "Jabón Palmolive Neutro",
+    store: "Sam's Club",
+    price: "$135 MXN",
+    image: "/productos/sams/palmolive neutro.jpeg",
+  },
+  {
+    name: "Shampoo Pantene",
+    store: "Sam's Club",
+    price: "$160 MXN",
+    image: "/productos/sams/pantene.jpeg",
+  },
+  {
+    name: "Desodorante Rexona Aerosol XL",
+    store: "Sam's Club",
+    price: "$250 MXN",
+    image: "/productos/sams/rexona aerosol xl.jpeg",
+  },
+  {
+    name: "Desodorante Rexona Aerosol",
+    store: "Sam's Club",
+    price: "$210 MXN",
+    image: "/productos/sams/rexona aerosol.jpeg",
+  },
+  {
+    name: "Desodorante Rexona Hombre",
+    store: "Sam's Club",
+    price: "$230 MXN",
+    image: "/productos/sams/rexona hombre.jpeg",
+  },
+  {
+    name: "Desodorante Rexona Mujer",
+    store: "Sam's Club",
+    price: "$230 MXN",
+    image: "/productos/sams/rexona mujer.jpeg",
+  },
+  {
+    name: "Toallas Femeninas Saba Rosa",
+    store: "Sam's Club",
+    price: "$110 MXN",
+    image: "/productos/sams/saba rosa.jpeg",
+  },
+  {
+    name: "Leche Santa Clara Entera",
+    store: "Sam's Club",
+    price: "$340 MXN",
+    image: "/productos/sams/santa clara entera.jpeg",
+  },
+  {
+    name: "Papel Higiénico Ultra Soft",
+    store: "Sam's Club",
+    price: "$390 MXN",
+    image: "/productos/sams/ultrasoft.jpeg",
+  },
+
+  // Walmart
+  {
+    name: "Cheerios",
+    store: "Walmart",
+    price: "$80 MXN",
+    image: "/productos/walmart/Cheerios.jpeg",
+  },
+  {
+    name: "Rascals Etapa 3",
+    store: "Walmart",
+    price: "$700 MXN",
+    image: "/productos/walmart/Rascals etapa 3.jpeg",
+  },
+  {
+    name: "Rascals Etapa 4",
+    store: "Walmart",
+    price: "$700 MXN",
+    image: "/productos/walmart/Rascals etapa 4.jpeg",
+  },
+  {
+    name: "Rascals Etapa 6",
+    store: "Walmart",
+    price: "$250 MXN",
+    image: "/productos/walmart/Rascals etapa 6.jpeg",
+  },
+  {
+    name: "Rascals Etapa 7",
+    store: "Walmart",
+    price: "$1000 MXN",
+    image: "/productos/walmart/Rascals etapa 7.jpeg",
+  },
+  {
+    name: "Papel Higiénico Cottonelle Negro",
+    store: "Walmart",
+    price: "$240 MXN",
+    image: "/productos/walmart/cotonelle negro.jpeg",
+  },
+
+  // McDonald's
+  {
+    name: "Big Mac",
+    store: "McDonald's",
+    price: "$120 MXN",
+    image: "/productos/mcdonalds/Big mac.jpeg",
+  },
+  {
+    name: "Cajita Feliz Hamburguesa con Queso",
+    store: "McDonald's",
+    price: "$145 MXN",
+    image: "/productos/mcdonalds/cajita feliz hamburguesa con queso.jpeg",
+  },
+  {
+    name: "Cajita Feliz Hamburguesa sin Queso",
+    store: "McDonald's",
+    price: "$145 MXN",
+    image: "/productos/mcdonalds/cajita feliz hamburguesa sin queso.jpeg",
+  },
+  {
+    name: "Cajita Feliz Nuggets",
+    store: "McDonald's",
+    price: "$145 MXN",
+    image: "/productos/mcdonalds/cajita feliz nuggets.jpeg",
+  },
+  {
+    name: "McPollo",
+    store: "McDonald's",
+    price: "$120 MXN",
+    image: "/productos/mcdonalds/mcPollo.jpeg",
+  },
+  {
+    name: "McTrío Copa Mundial",
+    store: "McDonald's",
+    price: "$240 MXN",
+    image: "/productos/mcdonalds/mcTrío Copa Mundial.jpeg",
+  },
+
+  // Little Caesars
+  {
+    name: "Crazy Puffs",
+    store: "Little Caesars",
+    price: "$80 MXN",
+    image: "/productos/little caesars/crazy puffs.jpeg",
+  },
+  {
+    name: "Pizza 3 Carnes",
+    store: "Little Caesars",
+    price: "$200 MXN",
+    image: "/productos/little caesars/pizza 3 carnes.jpeg",
+  },
+  {
+    name: "Pizza Extra Extra",
+    store: "Little Caesars",
+    price: "$160 MXN",
+    image: "/productos/little caesars/pizza extra extra.jpeg",
+  },
+  {
+    name: "Pizza Pepperoni",
+    store: "Little Caesars",
+    price: "$150 MXN",
+    image: "/productos/little caesars/pizza pepperoni.jpeg",
+  },
+  {
+    name: "Pizza Queso",
+    store: "Little Caesars",
+    price: "$140 MXN",
+    image: "/productos/little caesars/pizza queso.jpeg",
+  },
+
+  // Krispy Kreme
+  {
+    name: "Bites",
+    store: "Krispy Kreme",
+    price: "$80 MXN",
+    image: "/productos/krispy kreme/bites.jpeg",
+  },
+  {
+    name: "Docena Glaseada",
+    store: "Krispy Kreme",
+    price: "$260 MXN",
+    note: "* Día 12: $190",
+    image: "/productos/krispy kreme/docena glaseada.jpeg",
+  },
+  {
+    name: "Docena Select",
+    store: "Krispy Kreme",
+    price: "$360 MXN",
+    image: "/productos/krispy kreme/docena select.jpeg",
+  },
+
+  // El Globo
+  {
+    name: "Pastel Carlos V",
+    store: "El Globo",
+    price: "$750 MXN",
+    image: "/productos/globo/pastel carlos v.jpeg",
+  },
+  {
+    name: "Pastel Gansito",
+    store: "El Globo",
+    price: "$700 MXN",
+    image: "/productos/globo/pastel gansito.jpeg",
+  },
+  {
+    name: "Pastel Mil Hojas Circular",
+    store: "El Globo",
+    price: "$700 MXN",
+    image: "/productos/globo/pastel mil hojas circular.jpeg",
+  },
+  {
+    name: "Pastel Mil Hojas Rectangular",
+    store: "El Globo",
+    price: "$700 MXN",
+    image: "/productos/globo/pastel mil hojas rectangular.jpeg",
+  },
+  {
+    name: "Pastel Salón",
+    store: "El Globo",
+    price: "$850 MXN",
+    image: "/productos/globo/pastel salón.jpeg",
+  },
+
+  // La Esperanza
+  {
+    name: "Croissant Turín",
+    store: "La Esperanza",
+    price: "$50 MXN",
+    image: "/productos/esperanza/croissant turin.jpeg",
+  },
+  {
+    name: "Dona Turín",
+    store: "La Esperanza",
+    price: "$40 MXN",
+    image: "/productos/esperanza/dona turin.jpeg",
+  },
+  {
+    name: "Pastel Crepas Carlos V",
+    store: "La Esperanza",
+    price: "$440 MXN",
+    image: "/productos/esperanza/pastel crepas carlos v.jpeg",
+  },
+  {
+    name: "Pastel Crepas Conejo",
+    store: "La Esperanza",
+    price: "$440 MXN",
+    image: "/productos/esperanza/pastel crepas conejo.jpeg",
+  },
+  {
+    name: "Pay Cookies & Cream",
+    store: "La Esperanza",
+    price: "$40 MXN",
+    image: "/productos/esperanza/pay cookies & cream.jpeg",
+  },
+  {
+    name: "Rol de Canela",
+    store: "La Esperanza",
+    price: "$40 MXN",
+    image: "/productos/esperanza/rol canela.jpeg",
+  },
+  {
+    name: "Roll de Chocolate",
+    store: "La Esperanza",
+    price: "$40 MXN",
+    image: "/productos/esperanza/roll chocolate.jpeg",
+  },
+  {
+    name: "Roll de Natilla",
+    store: "La Esperanza",
+    price: "$40 MXN",
+    image: "/productos/esperanza/roll natilla.jpeg",
+  },
 ]
 
 export const faqs = [

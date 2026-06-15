@@ -78,6 +78,9 @@ export function Catalog() {
                   <span className="text-xs text-muted-foreground">Precio base</span>
                   <span className="ml-auto text-lg font-bold text-foreground">{p.price}</span>
                 </div>
+                {p.note && (
+                  <p className="mt-1 text-xs text-muted-foreground">{p.note}</p>
+                )}
                 <a
                   href={orderProductLink(p.name, p.store)}
                   target="_blank"
