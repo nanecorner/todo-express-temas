@@ -134,7 +134,7 @@ export const products: Product[] = [
   {
     name: "Papel Higiénico Cottonelle",
     store: "Sam's Club",
-    price: "$390 MXN",
+    price: "$260 MXN",
     image: "/productos/sams/cotonelle.jpeg",
   },
   {
